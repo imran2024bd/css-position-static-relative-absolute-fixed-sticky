@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Position Static Relative Absolute Fixed Sticky</title>
+    <style>
+        .swim-container {
+            position: relative;
+            border: 2px solid red;
+
+        }
+
+        .box {
+            border: 2px dotted pink;
+            /* there is border: 2px solid purple change box field */
+            width: 200px;
+            /* to denote the pixture width which its positioned */
+
+        }
+
+        .ring {
+            position: fixed;
+            top: 40px;
+            left: 100px;
+
+        }
+
+        /* .ring{
+            position: sticky;
+            top: 0px;
+            /* to position ring is sticky */
+        }
+
+        */
+        /* .ring {
+            position: relative;
+            /* Relative : current position reletive e koto tuku change hobe and will not leave the current spot */
+        /* left: 30px; */
+        /* to change left: 25px which its positioned field */
+        /* top: 50px; */
+        /* to change top: 50px to below( nicher direction e change hobe) which its positioned field */
+        /* top: -50px; */
+        /* to change top: 50px to below( upper direction e change hobe) which its positioned field */
+        */
+        /* 
+        .ring {
+            /* position: absolute; */
+        /* will lose its own position and will move based on the root */
+        /* top: 40px;
+            left: 100px; */
+        }
+
+        .dummy {
+            border: 1px solid aqua;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3> css Position </h3>
+    <ol>
+        <!-- flow related -->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!-- scroll related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box boy"><img src="image/Rectangle 12.png" alt=""></div>
+        <div class="box ring"><img src="image/Rectangle 13.png" alt=""></div>
+        <div class="box water"><img src="image/Rectangle 14.png" alt=""></div>
+    </div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    
+</body>
+
+</html>
